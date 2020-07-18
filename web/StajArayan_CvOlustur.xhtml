@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+      
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Personel ve Staj Takip Sistemi'ne Hosgeldiniz...</title>
+        
+    </h:head>
+    <h:body>
+        
+           <div id="container">
+		<div id="header">
+        	<h1>Kariyer Web Sitesi <span class="off">Nano Soft</span></h1>
+          <h2>Sevdanur GENC</h2>
+        </div>   
+        
+        <div id="navTop">
+            <ul>
+            	<li ><a href="#">Ana Sayfa</a></li>
+                
+                <li><a href="#">Staj Arayan Modulu Ayarlar</a>
+                <ul>
+                <li><a href="faces/UyeGiris.xhtml">Kullanici Olustur</a></li>
+                <li><a href="faces/UyeKayit.xhtml">Sifre Degistir</a>            
+                   
+                </li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Cv</a>
+                <ul>
+                    <li><a href="#.xhtml">Cv Olustur</a></li>
+                    <li><a href="#.xhtml">Cv Guncelle</a></li>
+                    <li><a href="#.xhtml">Cv Goruntule</a></li>
+                    <li><a href="#.xhtml">Cv Sil</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Listeleme</a>
+                <ul>
+                    <li><a href="#.xhtml">Stajer Arayan Firmalar</a></li>
+                    <li><a href="#.xhtml">Stajer Ilanlari</a></li>
+                </ul>
+                </li>
+                
+           
+             
+                
+                
+            </ul>
+        </div>
+        
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+
+				<div id="leftmenu_main">    
+                
+                <h3>Baglantilar</h3>
+                        
+                <ul>
+                    <li><a href="StajArayan.xhtml">Ana Sayfa</a></li>
+                    <li><a href="#">Cv</a></li>
+                    <li><a href="#">- Cv Olustur</a></li>
+                    <li><a href="#">- Cv Guncelle</a></li>
+                    <li><a href="#">- Cv Goruntule</a></li>
+                    <li><a href="#">- Cv Sil</a></li>
+                    <li><a href="#">Listeler</a></li>
+                    <li><a href="#">- Firmalar</a></li>
+                    <li><a href="#">- Ilanlar</a></li>
+                 
+                </ul>
+</div>
+                
+                
+              <div id="leftmenu_bottom"></div>
+        </div>
+        
+        
+        
+        
+		<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+        	<h2>Staj Arayanlar Ana Sayfasina Hosgeldiniz...</h2>
+        	<p>&nbsp;</p>
+           
+                
+                
+             
+         <h:form>
+           KULLANICI BILGILERI 
+            <p>&nbsp;</p> 
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>Kullanici Adi : </td>
+                    <td>  <h:inputText id="kullaniciadi" required="true" value="#{stajArayanCvOlustur.kullanici_adi}">
+         </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Sifre : </td>
+                <td>   
+                    <h:inputText id="sifre" required="true" value="#{stajArayanCvOlustur.sifre}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Isim : </td>
+                    <td>  <h:inputText id="isim" required="true" value="#{stajArayanCvOlustur.isim}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Soyisim : </td>
+                <td>   
+                    <h:inputText id="soyisim" required="true" value="#{stajArayanCvOlustur.soyisim}">                       
+            </h:inputText></td>
+            </tr>
+   
+                 <tr>
+                    <td>Cinsiyet : </td>
+                    <td>  <h:inputText id="cinsiyet" required="true" value="#{stajArayanCvOlustur.cinsiyet}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Dogum Yeri : </td>
+                <td>   
+                    <h:inputText id="dogumyeri" required="true" value="#{stajArayanCvOlustur.dogumyeri}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Dogum Tarihi : </td>
+                    <td>  <h:inputText id="dogumtarihi" required="true" value="#{stajArayanCvOlustur.dogumtarihi}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Kullanici Id : </td>
+                <td>   
+                    <h:inputText id="kullaniciid" required="true" value="#{stajArayanCvOlustur.kullanici_id}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Cep Tel : </td>
+                    <td>  <h:inputText id="ceptel" required="true" value="#{stajArayanCvOlustur.ceptel}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Ev Tel : </td>
+                <td>   
+                    <h:inputText id="evtel" required="true" value="#{stajArayanCvOlustur.evtel}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Adres : </td>
+                    <td>  <h:inputText id="adres" required="true" value="#{stajArayanCvOlustur.adres}">
+
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Web : </td>
+                <td>   
+                    <h:inputText id="web" required="true" value="#{stajArayanCvOlustur.web}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Email : </td>
+                    <td>  <h:inputText id="email" required="true" value="#{stajArayanCvOlustur.email}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Ehliyet : </td>
+                <td>   
+                    <h:inputText id="ehliyet" required="true" value="#{stajArayanCvOlustur.ehliyet}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Uyruk : </td>
+                    <td>  <h:inputText id="uyruk" required="true" value="#{stajArayanCvOlustur.uyruk}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Egitim Durumu : </td>
+                <td>   
+                    <h:inputText id="egitimdurumu" required="true" value="#{stajArayanCvOlustur.egitimdurumu}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Medeni Durum : </td>
+                    <td>  <h:inputText id="medenidurumu" required="true" value="#{stajArayanCvOlustur.medenidurum}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Toplam Tecrube : </td>
+                <td>   
+                    <h:inputText id="toplamtecrube" required="true" value="#{stajArayanCvOlustur.toplamtecrube}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Calisma Durumu : </td>
+                    <td>  <h:inputText id="calismadurumu" required="true" value="#{stajArayanCvOlustur.calismadurumu}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Yetki Id : </td>
+                <td>   
+                    <h:inputText id="yetkiid" required="true" value="#{stajArayanCvOlustur.yetki_id}">                       
+            </h:inputText></td>
+            </tr>
+           
+         
+                <tr>
+                <td>Sisteme Kaydet</td>
+                <td><h:commandButton id="kayit" action="#{stajArayanCvOlustur.cvolustur()}" value="Kaydet">
+                        </h:commandButton>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>                 
+
+
+    </h:form>
+                
+          <p></p>
+<p>&nbsp;</p>
+        </div>
+        <div id="content_bottom"></div>
+            
+            <div id="footer">
+                <h3>
+                    <a href="index.jsp">Ana Sayfa</a> | 
+                    <a href="faces/UyeGiris.xhtml">Uye Giris</a> | 
+                    <a href="UyeKayit.jsp">Uye Kayit</a> | 
+                    <a href="http://www.htmlcodes.me">Hakkimizda</a> | 
+                    <a href="http://www.free-templates.me">Referanslar</a> |
+                    <a href="http://www.free-templates.me">Iletisim</a> |
+                
+                </h3>
+            </div>
+      </div>
+   </div>
+        
+    </h:body>
+</html>
+

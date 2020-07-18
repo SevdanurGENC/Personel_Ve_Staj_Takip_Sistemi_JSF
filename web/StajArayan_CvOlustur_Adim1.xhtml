@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+      
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Personel ve Staj Takip Sistemi'ne Hosgeldiniz...</title>
+        
+    </h:head>
+    <h:body>
+        
+           <div id="container">
+		<div id="header">
+        	<h1>Kariyer Web Sitesi <span class="off">Nano Soft</span></h1>
+          <h2>Sevdanur GENC</h2>
+        </div>   
+        
+        <div id="navTop">
+            <ul>
+            	<li ><a href="#">Ana Sayfa</a></li>
+                
+                <li><a href="#">Staj Arayan Modulu Ayarlar</a>
+                <ul>
+                <li><a href="faces/UyeGiris.xhtml">Kullanici Olustur</a></li>
+                <li><a href="faces/UyeKayit.xhtml">Sifre Degistir</a>            
+                   
+                </li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Cv</a>
+                <ul>
+                    <li><a href="#.xhtml">Cv Olustur</a></li>
+                    <li><a href="#.xhtml">Cv Guncelle</a></li>
+                    <li><a href="#.xhtml">Cv Goruntule</a></li>
+                    <li><a href="#.xhtml">Cv Sil</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Listeleme</a>
+                <ul>
+                    <li><a href="#.xhtml">Stajer Arayan Firmalar</a></li>
+                    <li><a href="#.xhtml">Stajer Ilanlari</a></li>
+                </ul>
+                </li>
+                
+           
+             
+                
+                
+            </ul>
+        </div>
+        
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+
+				<div id="leftmenu_main">    
+                
+                <h3>Baglantilar</h3>
+                        
+                <ul>
+                    <li><a href="StajArayan.xhtml">Ana Sayfa</a></li>
+                    <li><a href="#">Cv</a></li>
+                    <li><a href="#">- Cv Olustur</a></li>
+                    <li><a href="#">- Cv Guncelle</a></li>
+                    <li><a href="#">- Cv Goruntule</a></li>
+                    <li><a href="#">- Cv Sil</a></li>
+                    <li><a href="#">Listeler</a></li>
+                    <li><a href="#">- Firmalar</a></li>
+                    <li><a href="#">- Ilanlar</a></li>
+                 
+                </ul>
+</div>
+                
+                
+              <div id="leftmenu_bottom"></div>
+        </div>
+        
+        
+        
+        
+		<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+        	<h2>Staj Arayanlar Ana Sayfasina Hosgeldiniz...</h2>
+        	<p>&nbsp;</p>
+           
+                
+                
+             
+         <h:form>
+           EGITIM BILGILERI 
+            <p>&nbsp;</p> 
+        <table border="1">
+            <tbody>
+                 
+            <tr>
+                <td>Ilk Ogretim Adi : </td>
+                <td>   
+                    <h:inputText id="ioadi" required="true" value="#{stajArayanCvOlustur.egitim_ilkogretim_adi}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Mezun Oldugu Tarih : </td>
+                    <td>  <h:inputText id="iomezuntarihi" required="true" value="#{stajArayanCvOlustur.egitim_ilkogretim_mezun_tarihi}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Diploma Notu : </td>
+                <td>   
+                    <h:inputText id="iodiplomanotu" required="true" value="#{stajArayanCvOlustur.egitim_ilkogretim_diploma_notu}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Lise Adi : </td>
+                    <td>  <h:inputText id="ladi" required="true" value="#{stajArayanCvOlustur.egitim_lise_adi}">
+                </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Mezun Oldugu Tarih : </td>
+                <td>   
+                    <h:inputText id="lmezuntarihi" required="true" value="#{stajArayanCvOlustur.egitim_lise_mezun_tarihi}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Diploma Notu : </td>
+                    <td>  <h:inputText id="ldipnot" required="true" value="#{stajArayanCvOlustur.egitim_lise_diploma_notu}">
+         </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Bolum : </td>
+                <td>   
+                    <h:inputText id="lbolum" required="true" value="#{stajArayanCvOlustur.egitim_lise_bolum}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Lisans Adi : </td>
+                    <td>  <h:inputText id="liadi" required="true" value="#{stajArayanCvOlustur.egitim_lisans_adi}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Mezun Oldugu Tarih : </td>
+                <td>   
+                    <h:inputText id="limeztar" required="true" value="#{stajArayanCvOlustur.egitim_lisans_mezun_tarihi}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Diploma Notu : </td>
+                    <td>  <h:inputText id="lisdipnot" required="true" value="#{stajArayanCvOlustur.egitim_lisans_diploma_notu}">
+
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Bolum : </td>
+                <td>   
+                    <h:inputText id="libolum" required="true" value="#{stajArayanCvOlustur.egitim_lisans_bolum}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Yuksek Lisans Adi : </td>
+                    <td>  <h:inputText id="yliadi" required="true" value="#{stajArayanCvOlustur.egitim_ylisans_adi}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Mezun Oldugu Tarih : </td>
+                <td>   
+                    <h:inputText id="ylimeztar" required="true" value="#{stajArayanCvOlustur.egitim_ylisans_mezun_tarihi}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Diploma Notu : </td>
+                    <td>  <h:inputText id="ylisdipnot" required="true" value="#{stajArayanCvOlustur.egitim_ylisans_diploma_notu}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Bolum : </td>
+                <td>   
+                    <h:inputText id="ylbolum" required="true" value="#{stajArayanCvOlustur.egitim_ylisans_bolum}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Doktora Adi : </td>
+                    <td>  <h:inputText id="dokadi" required="true" value="#{stajArayanCvOlustur.egitim_doktora_adi}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Mezun Oldugu Tarih : </td>
+                <td>   
+                    <h:inputText id="dmeztar" required="true" value="#{stajArayanCvOlustur.egitim_doktora_mezun_tarihi}">                       
+            </h:inputText></td>
+            </tr>
+                
+                 <tr>
+                    <td>Diploma Notu : </td>
+                    <td>  <h:inputText id="ddipnot" required="true" value="#{stajArayanCvOlustur.egitim_doktora_diploma_notu}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Bolum : </td>
+                <td>   
+                    <h:inputText id="dbolum" required="true" value="#{stajArayanCvOlustur.egitim_doktora_bolum}">                       
+            </h:inputText></td>
+            </tr>
+                 
+                <tr>
+                <td>Sisteme Kaydet</td>
+                <td><h:commandButton id="kayit" action="#{stajArayanCvOlustur.cvolustur()}" value="Kaydet">
+                        </h:commandButton>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>                 
+
+
+    </h:form>
+                
+          <p></p>
+<p>&nbsp;</p>
+        </div>
+        <div id="content_bottom"></div>
+            
+            <div id="footer">
+                <h3>
+                    <a href="index.jsp">Ana Sayfa</a> | 
+                    <a href="faces/UyeGiris.xhtml">Uye Giris</a> | 
+                    <a href="UyeKayit.jsp">Uye Kayit</a> | 
+                    <a href="http://www.htmlcodes.me">Hakkimizda</a> | 
+                    <a href="http://www.free-templates.me">Referanslar</a> |
+                    <a href="http://www.free-templates.me">Iletisim</a> |
+                
+                </h3>
+            </div>
+      </div>
+   </div>
+        
+    </h:body>
+</html>
+

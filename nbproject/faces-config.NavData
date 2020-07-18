@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="UyeListele.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="SehirBilgiIslemleri.xhtml" x="400" y="600" zoom="true"/>
+        <Node id="IsVeren_IlanGuncelle.xhtml" x="1900" y="150" zoom="true"/>
+        <Node id="HataliGiris.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="IsVeren_IlanGuncelleOnay.xhtml" x="650" y="900" zoom="true"/>
+        <Node id="SehirEkle.xhtml" x="150" y="750" zoom="true"/>
+        <Node id="IsVeren_IlanListele.xhtml" x="900" y="750" zoom="true"/>
+        <Node id="MeslekListele.xhtml" x="900" y="300" zoom="true"/>
+        <Node id="IsVeren_IlanEkle.xhtml" x="1400" y="450" zoom="true"/>
+        <Node id="MeslekEkle.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="IsArayan.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="KullaniciSil.xhtml" x="900" y="600" zoom="true"/>
+        <Node id="MeslekGuncelleSon.xhtml" x="400" y="1200" zoom="true"/>
+        <Node id="IsArayan_CvGoruntule.xhtml" x="1900" y="300" zoom="true"/>
+        <Node id="IsVeren_IlanSil.xhtml" x="150" y="1050" zoom="true"/>
+        <Node id="IlanEkle.xhtml" x="400" y="750" zoom="true"/>
+        <Node id="StajArayan_CvSil.xhtml" x="2150" y="150" zoom="true"/>
+        <Node id="IsTecrubeEkle.xhtml" x="1650" y="150" zoom="true"/>
+        <Node id="AdminPaneli.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="IsVeren.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="IsVeren_IsArayanlariListele.xhtml" x="1150" y="600" zoom="true"/>
+        <Node id="StajArayan_CvOlustur_Adim1.xhtml" x="150" y="1350" zoom="true"/>
+        <Node id="IsTecrubeBilgiIslemleri.xhtml" x="150" y="900" zoom="true"/>
+        <Node id="UyeKayit.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="StajArayan_CvGoruntule.xhtml" x="150" y="1200" zoom="true"/>
+        <Node id="StajArayan.xhtml" x="400" y="1050" zoom="true"/>
+        <Node id="KullaniciEkle.xhtml" x="1150" y="450" zoom="true"/>
+        <Node id="MeslekGuncelle.xhtml" x="650" y="1050" zoom="true"/>
+        <Node id="MeslekBilgiIslemleri.xhtml" x="150" y="600" zoom="true"/>
+        <Node id="KursBilgiIslemleri.xhtml" x="650" y="450" zoom="true"/>
+        <Node id="StajArayan_CvOlustur.xhtml" x="900" y="900" zoom="true"/>
+        <Node id="IsArayan_CvSil.xhtml" x="1400" y="600" zoom="true"/>
+        <Node id="IlanSil.xhtml" x="900" y="450" zoom="true"/>
+        <Node id="MeslekSil.xhtml" x="400" y="900" zoom="true"/>
+        <Node id="IsVeren_StajArayanlariListele.xhtml" x="1650" y="300" zoom="true"/>
+        <Node id="KursSil.xhtml" x="650" y="750" zoom="true"/>
+        <Node id="KursEkle.xhtml" x="1150" y="150" zoom="true"/>
+        <Node id="IlanBilgiIslemleri.xhtml" x="650" y="600" zoom="true"/>
+        <Node id="IsTecrubeSil.xhtml" x="1400" y="300" zoom="true"/>
+        <Node id="SehirListele.xhtml" x="1400" y="150" zoom="true"/>
+        <Node id="UyeGiris.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="IsArayan_FirmaListesi.xhtml" x="1650" y="450" zoom="true"/>
+        <Node id="index.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="SehirSil.xhtml" x="1150" y="300" zoom="true"/>
+        <Node id="IsArayan_IlanListele.xhtml" x="1150" y="750" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

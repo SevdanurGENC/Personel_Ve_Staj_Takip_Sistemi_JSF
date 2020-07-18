@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+
+<faces-config version="2.0"
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+
+ <managed-bean>
+        <managed-bean-name>veritabaniBaglanti</managed-bean-name>
+        <managed-bean-class>KullaniciGiris.VeritabaniBaglanti</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>uyeIslemleri</managed-bean-name>
+        <managed-bean-class>KullaniciGiris.UyeIslemleri</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>  
+
+
+   <managed-bean>
+        <managed-bean-name>meslekEkle</managed-bean-name>
+        <managed-bean-class>MeslekBilgiIslemleri.MeslekEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean> 
+
+
+    <managed-bean>
+        <managed-bean-name>meslekListele</managed-bean-name>
+        <managed-bean-class>MeslekBilgiIslemleri.MeslekListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean> 
+
+   <managed-bean>
+        <managed-bean-name>kursEkle</managed-bean-name>
+        <managed-bean-class>KursBilgiIslemleri.KursEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean> 
+
+   <managed-bean>
+        <managed-bean-name>sehirEkle</managed-bean-name>
+        <managed-bean-class>SehirBilgiIslemleri.SehirEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>sehirListele</managed-bean-name>
+        <managed-bean-class>SehirBilgiIslemleri.SehirListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>sehirSil</managed-bean-name>
+        <managed-bean-class>SehirBilgiIslemleri.SehirSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+ 
+ <managed-bean>
+        <managed-bean-name>ilanEkle</managed-bean-name>
+        <managed-bean-class>IlanBilgiIslemleri.IlanEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    
+<managed-bean>
+        <managed-bean-name>ilanSil</managed-bean-name>
+        <managed-bean-class>IlanBilgiIslemleri.IlanSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>isTecrubeEkle</managed-bean-name>
+        <managed-bean-class>IsTecrubeBilgiIslemi.IsTecrubeEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    
+<managed-bean>
+        <managed-bean-name>isTecrubeSil</managed-bean-name>
+        <managed-bean-class>IsTecrubeBilgiIslemi.IsTecrubeSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>kullanicilarEkle</managed-bean-name>
+        <managed-bean-class>Kullanicilar.KullanicilarEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>kullanicilarSil</managed-bean-name>
+        <managed-bean-class>Kullanicilar.KullanicilarSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+     <managed-bean>
+        <managed-bean-name>kursSil</managed-bean-name>
+        <managed-bean-class>KursBilgiIslemleri.KursSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+     <managed-bean>
+        <managed-bean-name>meslekSil</managed-bean-name>
+        <managed-bean-class>MeslekBilgiIslemleri.MeslekSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+    
+    
+    <managed-bean>
+        <managed-bean-name>ilanEkle</managed-bean-name>
+        <managed-bean-class>IsVerenIlanBilgiIslemleri.IlanEkle</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    
+     <managed-bean>
+        <managed-bean-name>isVerenIlanSil</managed-bean-name>
+        <managed-bean-class>IsVerenIlanBilgiIslemleri.IsVerenIlanSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+   
+    
+     <managed-bean>
+        <managed-bean-name>isVerenIlanListele</managed-bean-name>
+        <managed-bean-class>IsVerenIlanBilgiIslemleri.IsVerenIlanListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean> 
+
+    <managed-bean>
+        <managed-bean-name>isVerenIlanGuncelle</managed-bean-name>
+        <managed-bean-class>IsVerenIlanBilgiIslemleri.IsVerenIlanGuncelle</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+     
+        <managed-bean>
+        <managed-bean-name>isArayanListele</managed-bean-name>
+        <managed-bean-class>IsVerenListelemeBilgiIslemleri.IsArayanListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+        
+        <managed-bean>
+        <managed-bean-name>stajerListele</managed-bean-name>
+        <managed-bean-class>IsVerenListelemeBilgiIslemleri.StajerListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+        
+        
+        
+        <managed-bean>
+        <managed-bean-name>stajArayanCvGoruntule</managed-bean-name>
+        <managed-bean-class>StajArayanBilgiIslemleri.CvGoruntule</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+        
+        <managed-bean>
+        <managed-bean-name>stajArayanCvSil</managed-bean-name>
+        <managed-bean-class>StajArayanBilgiIslemleri.CvSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+        
+        
+        
+        <managed-bean>
+        <managed-bean-name>isArayanCvGoruntule</managed-bean-name>
+        <managed-bean-class>IsArayanBilgiIslemleri.CvGoruntule</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+        
+        <managed-bean>
+        <managed-bean-name>isArayanCvSil</managed-bean-name>
+        <managed-bean-class>IsArayanBilgiIslemleri.CvSil</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+    
+        <managed-bean>
+        <managed-bean-name>isArayanFirmaListele</managed-bean-name>
+        <managed-bean-class>IsArayanBilgiIslemleri.FirmaListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+    
+        <managed-bean>
+        <managed-bean-name>isArayanIlanListele</managed-bean-name>
+        <managed-bean-class>IsArayanBilgiIslemleri.IlanListele</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+        
+        
+        
+        <managed-bean>
+        <managed-bean-name>stajArayanCvOlustur</managed-bean-name>
+        <managed-bean-class>StajArayanBilgiIslemleri.CvOlustur</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+        </managed-bean> 
+
+        
+        
+        
+        <managed-bean>
+        <managed-bean-name>meslekGuncelle</managed-bean-name>
+        <managed-bean-class>MeslekBilgiIslemleri.MeslekGuncelle</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        </managed-bean>
+
+    
+        <navigation-rule>
+        <from-view-id>MeslekGuncelleSon.xhtml</from-view-id>
+        <navigation-case>
+        <from-outcome>Meslekler_Liste</from-outcome>
+        <to-view-id>MeslekGuncelle.xhtml</to-view-id>
+        <redirect />
+        </navigation-case>
+        </navigation-rule>
+    
+    
+    
+    
+    
+</faces-config>

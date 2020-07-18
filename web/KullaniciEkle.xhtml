@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+        <title>Personel ve Staj Takip Sistemi'ne Hosgeldiniz - Uye Giris Ekrani...</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      
+    </h:head>
+    <h:body>
+      
+              <div id="container">
+		<div id="header">
+        	<h1>Kariyer Web Sitesi <span class="off">Nano Soft</span></h1>
+          <h2>Sevdanur GENC</h2>
+        </div>   
+        
+        <div id="navTop">
+            <ul>
+            	<li ><a href="#">Ana Sayfa</a></li>
+                
+                <li><a href="#">Uye Islemleri</a>
+                <ul>
+                <li ><a href="faces/UyeGiris.xhtml">Uye Giris</a></li>
+                <li ><a href="UyeKayit.jsp">Uye Kayit</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Ilanlar</a>
+                <ul>
+                    <li><a href="#">Is Veren Ilanlari</a></li>
+                    <li><a href="#">Is Arayan Ilanlari</a></li>
+                    <li><a href="#">Staj Ilanlari</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Hakkimizda</a></li>
+                <li><a href="#">Referanslar</a></li>
+                <li><a href="#">Iletisim</a>
+                    
+                </li>
+            </ul>
+        </div>
+        
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+
+				<div id="leftmenu_main">    
+                
+                <h3>Baglantilar</h3>
+                        
+                <ul>
+                    <li><a href="IlanEkle.jsp">Ana Sayfa</a></li>
+                    <li><a href="IsTecrubeEkle.jsp">Uye Islemleri</a></li>
+                    <li><a href="KursEkle.jsp">- Uye Kayit</a></li>
+                    <li><a href="ReferansEkle.jsp">- Uye Giris</a></li>
+                    <li><a href="Sehir.jsp">Ilanlar</a></li>
+                    <li><a href="SertifikaEkle.jsp">- Is Veren Ilanlari</a></li>
+                    <li><a href="SinavBilgiEkle.jsp">- Is Arayan Ilanlari</a></li>
+                    <li><a href="UniversiteEkle.jsp">- Staj Ilanlari</a></li>
+                    
+                    <li><a href="YetkiEkle.jsp">Iletisim</a></li>
+                </ul>
+</div>
+                
+                
+              <div id="leftmenu_bottom"></div>
+        </div>
+        
+        
+        
+        
+		<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+       
+            
+            
+              	<h2>Uye Giris Ekranina Hosgeldiniz...</h2>
+        	<p>&nbsp;</p>
+           	<p>&nbsp;</p>
+       	<h3> Lütfen Giris Icin Kullanici Adinizi Ve Sifrenizi Giriniz.</h3>
+       
+         <p>&nbsp;</p>  
+         
+
+             <a href="faces/UyeGiris.xhtml">Sistem Sorumlusu Kayit</a> | 
+                   <a href="faces/UyeKayit.xhtml">Is Arayan Kayit</a> | 
+                   <a href="faces/UyeKayit.xhtml">Is Veren Kayit</a> 
+                
+                	<p>&nbsp;</p>	<p>&nbsp;</p>
+
+   <h:form>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>Kullanıcı Adı</td>
+                    <td>  <h:inputText id="kadi" required="true" value="#{kullanicilarEkle.kullanici_adi}">
+            </h:inputText>  </td>
+            </tr>
+          
+            <tr>
+                <td>Şifre</td>
+                <td>   
+                    <h:inputText id="sifre" required="true" value="#{kullanicilarEkle.sifre}">                       
+            </h:inputText></td>
+            </tr>
+               <tr>
+                    <td>Isim</td>
+                    <td>  <h:inputText id="isim" required="true" value="#{kullanicilarEkle.isim}">
+
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Soyisim</td>
+                    <td>  <h:inputText id="soyisim" required="true" value="#{kullanicilarEkle.soyisim}">
+          </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Cinsiyet</td>
+                    <td>  <h:inputText id="cinsiyet" required="true" value="#{kullanicilarEkle.cinsiyet}">
+          </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Dogum Yeri </td>
+                    <td>  <h:inputText id="dyeri" required="true" value="#{kullanicilarEkle.dogumyeri}">
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Dogum Tarihi</td>
+                    <td>  <h:inputText id="dtarihi" required="true" value="#{kullanicilarEkle.dogumtarihi}">
+          </h:inputText>  </td>
+            </tr>
+                    <tr>
+                    <td>Kullanidi ID</td>
+                    <td>  <h:inputText id="ceptel" required="true" value="#{kullanicilarEkle.kullanici_id}">
+            </h:inputText>  </td>
+            </tr>
+                <tr>
+                    <td>Cep Tel</td>
+                    <td>  <h:inputText id="ceptel" required="true" value="#{kullanicilarEkle.ceptel}">
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Ev Tel</td>
+                    <td>  <h:inputText id="evtel" required="true" value="#{kullanicilarEkle.evtel}">
+           </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Adres</td>
+                    <td>  <h:inputText id="adres" required="true" value="#{kullanicilarEkle.adres}">
+          </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Web</td>
+                    <td>  <h:inputText id="web" required="true" value="#{kullanicilarEkle.web}">
+        </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>E - Mail</td>
+                    <td>  <h:inputText id="email" required="true" value="#{kullanicilarEkle.email}">
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Ehliyet</td>
+                    <td>  <h:inputText id="ehliyet" required="true" value="#{kullanicilarEkle.ehliyet}">
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Uyruk</td>
+                    <td>  <h:inputText id="uyruk" required="true" value="#{kullanicilarEkle.uyruk}">
+          </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Egitim Durumu</td>
+                    <td>  <h:inputText id="edu" required="true" value="#{kullanicilarEkle.egitimdurumu}">
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Medeni Durumu</td>
+                    <td>  <h:inputText id="medu" required="true" value="#{kullanicilarEkle.medenidurum}">
+          </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Toplam Tecrube</td>
+                    <td>  <h:inputText id="toptec" required="true" value="#{kullanicilarEkle.toplamtecrube}">
+            </h:inputText>  </td>
+            </tr>
+                 <tr>
+                    <td>Calisma Durumu</td>
+                    <td>  <h:inputText id="caldur" required="true" value="#{kullanicilarEkle.calismadurumu}">
+            </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Egitim ID</td>
+                    <td>  <h:inputText id="egid" required="true" value="#{kullanicilarEkle.egitim_id}">
+            </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Nitelik ID</td>
+                    <td>  <h:inputText id="nitid" required="true" value="#{kullanicilarEkle.nitelik_id}">
+         </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Is Tecrube ID</td>
+                    <td>  <h:inputText id="istecid" required="true" value="#{kullanicilarEkle.istecrube_id}">
+           </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Referans ID</td>
+                    <td>  <h:inputText id="refid" required="true" value="#{kullanicilarEkle.referans_id}">
+        </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Sertifika ID</td>
+                    <td>  <h:inputText id="serid" required="true" value="#{kullanicilarEkle.sertifika_id}">
+        </h:inputText>  </td>
+            </tr>
+                    <tr>
+                    <td>Kurs ID</td>
+                    <td>  <h:inputText id="kursid" required="true" value="#{kullanicilarEkle.kurs_id}">
+         </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Yabanci Dil ID</td>
+                    <td>  <h:inputText id="yabdilid" required="true" value="#{kullanicilarEkle.yabancidil_id}">
+            </h:inputText>  </td>
+            </tr>
+                   <tr>
+                    <td>Sinav Bilgi ID</td>
+                    <td>  <h:inputText id="sinbilid" required="true" value="#{kullanicilarEkle.sinavbilgi_id}">
+          </h:inputText>  </td>
+            </tr>
+                <tr>
+                    <td>Yetki ID</td>
+                    <td>  <h:inputText id="sinbilid" required="true" value="#{kullanicilarEkle.yetki_id}">
+          </h:inputText>  </td>
+            </tr>
+                
+                
+            <tr>
+                <td>Sisteme Kaydet</td>
+                <td><h:commandButton id="kayit" action="#{kullanicilarEkle.kullanicilarekle()}" value="Kaydet">
+                        </h:commandButton>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>                 
+
+
+    </h:form>
+                
+        </div>
+        <div id="content_bottom"></div>
+            
+            <div id="footer">
+                <h3>
+                    <a href="index.jsp">Ana Sayfa</a> | 
+                    <a href="faces/UyeGiris.xhtml">Uye Giris</a> | 
+                    <a href="UyeKayit.jsp">Uye Kayit</a> | 
+                    <a href="http://www.htmlcodes.me">Hakkimizda</a> | 
+                    <a href="http://www.free-templates.me">Referanslar</a> |
+                    <a href="http://www.free-templates.me">Iletisim</a> |
+                
+                </h3>
+            </div>
+      </div>
+   </div>
+        
+        
+    </h:body>
+</html>
+
