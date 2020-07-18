@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+      
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Personel ve Staj Takip Sistemi'ne Hosgeldiniz...</title>
+        
+    </h:head>
+    <h:body>
+        
+           <div id="container">
+		<div id="header">
+        	<h1>Kariyer Web Sitesi <span class="off">Nano Soft</span></h1>
+          <h2>Sevdanur GENC</h2>
+        </div>   
+        
+        <div id="navTop">
+            <ul>
+            	<li ><a href="#">Ana Sayfa</a></li>
+                
+                <li><a href="#">is Arayan Modulu Ayarlar</a>
+                <ul>
+                <li><a href="faces/UyeGiris.xhtml">Kullanici Olustur</a></li>
+                <li><a href="faces/UyeKayit.xhtml">Sifre Degistir</a>            
+                   
+                </li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Cv</a>
+                <ul>
+                    <li><a href="#.xhtml">Cv Olustur</a></li>
+                    <li><a href="#.xhtml">Cv Guncelle</a></li>
+                    <li><a href="#.xhtml">Cv Goruntule</a></li>
+                    <li><a href="#.xhtml">Cv Sil</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="#">Listeleme</a>
+                <ul>
+                    <li><a href="#.xhtml">Firmalar</a></li>
+                    <li><a href="#.xhtml">Ilanlari</a></li>
+                </ul>
+                </li>
+                
+           
+             
+                
+                
+            </ul>
+        </div>
+        
+        <div id="leftmenu">
+
+        <div id="leftmenu_top"></div>
+
+				<div id="leftmenu_main">    
+                
+                <h3>Baglantilar</h3>
+                        
+                <ul>
+                    <li><a href="StajArayan.xhtml">Ana Sayfa</a></li>
+                    <li><a href="#">Cv</a></li>
+                    <li><a href="#">- Cv Olustur</a></li>
+                    <li><a href="#">- Cv Guncelle</a></li>
+                    <li><a href="#">- Cv Goruntule</a></li>
+                    <li><a href="#">- Cv Sil</a></li>
+                    <li><a href="#">Listeler</a></li>
+                    <li><a href="#">- Firmalar</a></li>
+                    <li><a href="#">- Ilanlar</a></li>
+                 
+                </ul>
+</div>
+                
+                
+              <div id="leftmenu_bottom"></div>
+        </div>
+        
+        
+        
+        
+		<div id="content">
+        
+        
+        <div id="content_top"></div>
+        <div id="content_main">
+        	<h2>Is Arayanlar Ana Sayfasina Hosgeldiniz...</h2>
+        	<p>&nbsp;</p>
+           
+                
+                      
+                <h:form>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>Silinecek Cv'nin Id'sini Giriniz</td>
+                    <td>  <h:inputText id="cvid" required="true" value="#{isArayanCvSil.id}">
+             </h:inputText>  </td>
+            </tr>
+         
+                <tr>
+                <td>Sil</td>
+                <td><h:commandButton id="sil" action="#{isArayanCvSil.cvsil()}" value="Sil">
+                        </h:commandButton>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>                 
+
+
+    </h:form>
+                
+       
+                
+          <p></p>
+<p>&nbsp;</p>
+        </div>
+        <div id="content_bottom"></div>
+            
+            <div id="footer">
+                <h3>
+                    <a href="index.jsp">Ana Sayfa</a> | 
+                    <a href="faces/UyeGiris.xhtml">Uye Giris</a> | 
+                    <a href="UyeKayit.jsp">Uye Kayit</a> | 
+                    <a href="http://www.htmlcodes.me">Hakkimizda</a> | 
+                    <a href="http://www.free-templates.me">Referanslar</a> |
+                    <a href="http://www.free-templates.me">Iletisim</a> |
+                
+                </h3>
+            </div>
+      </div>
+   </div>
+        
+    </h:body>
+</html>
+
